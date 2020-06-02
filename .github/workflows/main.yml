@@ -31,4 +31,4 @@ jobs:
     - name: installing surge
       run: npm install --g surge
     - name: deploying using surge
-      run: surge ./ solid-health.surge.sh --token ${{secrets.BOOTCAMPTOKEN1}}
+      run: surge ./ solid-health1.surge.sh --token ${{secrets.BOOTCAMPTOKEN1}}
